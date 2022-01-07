@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: darkseagreen;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.haoquy.hethongbanvexe.ChooseBusController">
+   <children>
+      <Text fill="#220eff" stroke="#01ff1b" strokeType="OUTSIDE" strokeWidth="2.0" text="CHỌN XE" textAlignment="CENTER" wrappingWidth="620.0667572021484">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ComboBox fx:id="NameTripFrom" prefHeight="26.0" prefWidth="298.0" promptText="Chọn Tuyến Xe Khởi Hành" />
+            <ComboBox fx:id="NameTripTo" prefHeight="26.0" prefWidth="323.0" promptText="Chọn Tuyến Xe Đích Đến" />
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="178.0" text="Thời Gian khởi hành:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="27.0" prefWidth="41.0" text="Ngày " textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Date" alignment="CENTER" prefHeight="26.0" prefWidth="77.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <HBox prefHeight="30.0" prefWidth="38.0" />
+            <Label prefHeight="27.0" prefWidth="47.0" text="Tháng" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Month" alignment="CENTER" prefHeight="26.0" prefWidth="80.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <HBox prefHeight="30.0" prefWidth="45.0" />
+            <Label prefHeight="27.0" prefWidth="35.0" text="Năm">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Year" alignment="CENTER" prefHeight="26.0" prefWidth="77.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <Label fx:id="NameCar1" prefHeight="102.0" prefWidth="584.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="NamePrice1" prefHeight="98.0" prefWidth="591.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="111.0" prefWidth="640.0">
+         <children>
+            <RadioButton fx:id="time1" mnemonicParsing="false" prefHeight="42.0" prefWidth="166.0" text="Rỗng">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </HBox>
+      <Label fx:id="NameCar2" prefHeight="100.0" prefWidth="570.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="NamePrice2" prefHeight="102.0" prefWidth="563.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="108.0" prefWidth="640.0">
+         <children>
+            <RadioButton fx:id="time2" mnemonicParsing="false" prefHeight="29.0" prefWidth="169.0" text="Rỗng">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </HBox>
+      <Label fx:id="NameCar3" prefHeight="99.0" prefWidth="579.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="NamePrice3" prefHeight="98.0" prefWidth="582.0" text="Rỗng">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="110.0" prefWidth="640.0">
+         <children>
+            <RadioButton fx:id="time3" mnemonicParsing="false" prefHeight="33.0" prefWidth="171.0" text="Rỗng">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="640.0">
+         <children>
+            <HBox prefHeight="67.0" prefWidth="126.0" />
+            <Button fx:id="BackPage" mnemonicParsing="false" onAction="#switchToAddInfo" prefHeight="39.0" prefWidth="94.0" text="Trước" textFill="#2c00f0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <HBox prefHeight="22.0" prefWidth="200.0">
+               <children>
+                  <HBox prefHeight="39.0" prefWidth="49.0" />
+                  <Button fx:id="Back" mnemonicParsing="false" prefHeight="38.0" prefWidth="28.0" text="&lt;" textFill="#840a0a">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <HBox layoutX="10.0" layoutY="10.0" prefHeight="39.0" prefWidth="41.0" />
+                  <Button fx:id="Next" layoutX="60.0" layoutY="10.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="30.0" text="&gt;" textFill="#8c1515">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children></HBox>
+            <Button fx:id="NextPage" mnemonicParsing="false" onAction="#switchToSeat" prefHeight="39.0" prefWidth="95.0" text="Sau" textFill="#3600fc">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <VBox prefHeight="79.0" prefWidth="620.0" />
+   </children>
+</VBox>

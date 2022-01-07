@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: darkseagreen;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.haoquy.hethongbanvexe.SeatController">
+   <children>
+      <Text fill="#0a03e2" stroke="#09ff19" strokeType="OUTSIDE" strokeWidth="2.0" text="CHỌN GHẾ" textAlignment="CENTER" wrappingWidth="636.0509033203125">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <VBox prefHeight="74.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="41.0" prefWidth="640.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Đầu xe" textAlignment="CENTER" wrappingWidth="639.2910766601562">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <HBox prefHeight="243.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="242.0" prefWidth="35.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tầng dưới" wrappingWidth="89.203125">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="a1" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" text="A1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a2" mnemonicParsing="false" prefHeight="42.0" prefWidth="52.0" text="A2">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a3" mnemonicParsing="false" prefHeight="38.0" prefWidth="51.0" text="A3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a4" mnemonicParsing="false" prefHeight="38.0" prefWidth="51.0" text="A4">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a5" mnemonicParsing="false" prefHeight="41.0" prefWidth="58.0" text="A5">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tầng trên" wrappingWidth="83.31402587890625">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="a6" mnemonicParsing="false" prefHeight="47.0" prefWidth="57.0" text="A6">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a7" mnemonicParsing="false" prefHeight="38.0" prefWidth="57.0" text="A7">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a8" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="A8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a9" mnemonicParsing="false" prefHeight="37.0" prefWidth="60.0" text="A9">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="a10" mnemonicParsing="false" prefHeight="43.0" prefWidth="62.0" text="A10">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <VBox prefHeight="286.0" prefWidth="200.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tầng dưới">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="b1" mnemonicParsing="false" prefHeight="41.0" prefWidth="62.0" text="B1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b2" mnemonicParsing="false" prefHeight="41.0" prefWidth="57.0" text="B2">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b3" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" text="B3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b4" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" text="B4">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b5" mnemonicParsing="false" prefHeight="37.0" prefWidth="56.0" text="B5">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tầng trên">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="b6" mnemonicParsing="false" prefHeight="45.0" prefWidth="59.0" text="B6">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b7" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0" text="B7">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b8" mnemonicParsing="false" prefHeight="42.0" prefWidth="59.0" text="B8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b9" mnemonicParsing="false" prefHeight="42.0" prefWidth="60.0" text="B9">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b10" mnemonicParsing="false" prefHeight="35.0" prefWidth="62.0" text="B10">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox prefHeight="43.0" prefWidth="640.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cuối xe" textAlignment="CENTER" wrappingWidth="629.6911010742188">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <HBox prefHeight="70.0" prefWidth="640.0">
+         <children>
+            <HBox prefHeight="90.0" prefWidth="126.0" />
+            <Button fx:id="backPage" mnemonicParsing="false" onAction="#switchToChooseBus" prefHeight="48.0" prefWidth="97.0" text="Trước" textFill="#1307f5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="186.0" />
+            <Button fx:id="nextPage" mnemonicParsing="false" onAction="#switchToInfo" prefHeight="44.0" prefWidth="94.0" text="Sau" textFill="#1100ff">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
